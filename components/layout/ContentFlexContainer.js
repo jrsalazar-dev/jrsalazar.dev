@@ -4,7 +4,7 @@ const ContentFlexContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
 
   & > div:last-child {
     margin-left: 30px;
