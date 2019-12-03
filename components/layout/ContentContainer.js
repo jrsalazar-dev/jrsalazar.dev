@@ -6,7 +6,11 @@ const ContentContainer = styled.div(props => {
     position: 'relative',
     border: '1px solid #999',
     backgroundColor: '#fff',
-    maxWidth: '1170px'
+    maxWidth: '1170px',
+    '@media print': {
+      border: 0,
+      padding: '30px 50px'
+    }
   }
 
   styles.flex = `${props.flex}`

@@ -120,6 +120,11 @@ const TimelineDates = styled.div`
   font-size: 2rem;
   color: #c7c7c7;
   ${mono};
+
+  @media print {
+    font-size: 1.2rem;
+    top: -20px;
+  }
 `
 
 const TimelineItemContainer = styled(Background)(props => {
@@ -132,6 +137,10 @@ const TimelineItemContainer = styled(Background)(props => {
     border: 1px solid #999;
 
     ${tlarrow};
+
+    @media print {
+      padding: 10px;
+    }
   `
 })
 

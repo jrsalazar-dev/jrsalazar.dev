@@ -11,6 +11,8 @@ import PageTitle from '../components/typography/PageTitle'
 import Timeline from '../components/timeline'
 import UnorderedList from '../components/UnorderedList'
 import SkillsItem from '../components/SkillsItem'
+import Profile from '../components/Profile'
+import DownloadOrWebButton from '../components/DownloadOrWebButton'
 import {
   paragraph,
   Heading03,
@@ -27,11 +29,16 @@ export default function Index() {
         <Section className="splash">
           <ContentFlexContainer>
             <ContentContainer flex="2.5">
+              <DownloadOrWebButton />
               <SectionHead icon="ion-android-contact" title="Profile" />
               <PageTitle>Jordan Salazar</PageTitle>
               <Heading05
                 css={css`
                   margin-bottom: 5rem;
+
+                  @media print {
+                    margin-bottom: 10px;
+                  }
                 `}
               >
                 Full time Webmagician, part time human being
@@ -43,7 +50,9 @@ export default function Index() {
                 all the modern tools available.
               </Paragraph>
             </ContentContainer>
-            <ContentContainer flex="1" />
+            <ContentContainer flex="1">
+              <Profile />
+            </ContentContainer>
           </ContentFlexContainer>
         </Section>
         <Section className="skillset">
@@ -64,24 +73,25 @@ export default function Index() {
                 ${paragraph};
               `}
             >
-              <li className="ion-ios-lightbulb-outline">
+              <li className="ion-ios-world">
                 Orchestrating and developing advanced web applications and
                 (micro-)services (Laravel,Node.js)
               </li>
-              <li className="ion-ios-lightbulb-outline">
+              <li className="ion-network">
                 Creating and connecting seperate software systems through API's
-                and managing data flows (REST,Web/Sockets,SOAP)
+                and managing data flows (REST,GraphQL,Web/Sockets,SOAP)
               </li>
-              <li className="ion-ios-lightbulb-outline">
+              <li className="ion-ios-monitor">
                 Engineering next-gen user interfaces with Javascript and modern
-                web technologies. (ES6+,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)
+                web technologies. (ES2020,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)
               </li>
-              <li className="ion-ios-lightbulb-outline">
+              <li className="ion-iphone">
                 Developing and maintaining cross platform mobile apps (React
                 Native,Ionic)
               </li>
-              <li className="ion-ios-lightbulb-outline">
-                Setting up professional engineering pipelines (Docker,CI,CD)
+              <li className="ion-code-working">
+                Setting up professional engineering pipelines
+                (Bash,Docker,CI,CD,Puppet)
               </li>
             </UnorderedList>
             <Heading04>Languages & Frameworks</Heading04>
@@ -94,35 +104,41 @@ export default function Index() {
               <SkillsItem
                 title="Javascript"
                 icon="ion-social-javascript-outline"
-                tags="React,Redux,Vue,Vuex,Angular.js,Angular,RxJS,Express,Hapi,Socket.io"
+                tags="React,Redux,Vue,Vuex,Angular.js,Angular,RxJS,Express,Hapi"
                 level="5"
               >
                 <Paragraph>
                   JS is my oldest friend and the go-to language for anything
                   general purpose. Started my career using Angular.js and SCSS,
-                  these days all about component based architectures,
+                  these days I'm all about component based architectures,
                   unidirectional data flow and CSS-in-JS.
                 </Paragraph>
                 <Paragraph>
                   On the server I've set up microservices and monoliths. REST
                   API's and socket based messaging endpoints. Written scripts to
                   combine and manage frontend assets (pre-webpack) and developed
-                  things as a real-time video-overlay generator.
+                  things as a video-overlay generator with node-ffmpeg.
                 </Paragraph>
               </SkillsItem>
               <SkillsItem
                 title="PHP: Hypertext Preprocessor"
                 image="/img/php-512.png"
-                level="4"
+                tags="Laravel,Symfony,PHPUnit,DependencyInjection"
+                level="5"
               >
                 <Paragraph>
-                  PHP (Namely Laravel) is my backend of choice for backends with
-                  considerable complexity. Laravel's maturity, ease of use and
-                  sheer brilliance is the main driver in that decision. Used
-                  Symfony, Cake and VanillaPHP (reluctantly) to a lesser degree.
+                  PHP (Namely Laravel) is the first choice for cut and clear web
+                  applications where an opinionated framework is the first
+                  choice. Intimate with Laravel's best practices and feature
+                  rich ecosystem.
                 </Paragraph>
               </SkillsItem>
-              <SkillsItem title="CSS" icon="ion-social-css3-outline" level="4">
+              <SkillsItem
+                tags="Emotion,styled-components,SCSS"
+                title="CSS"
+                icon="ion-social-css3-outline"
+                level="4"
+              >
                 <Paragraph>
                   Whether you're building static pages or component based
                   javascript apps, CSS is an essential player. Mastered most of
@@ -133,6 +149,7 @@ export default function Index() {
               </SkillsItem>
               <SkillsItem
                 title="GNU + Linux"
+                tags="ArchLinux,Debian,Alpine,bash,zsh,fish,Docker,Git,Vim"
                 image="/img/Heckert_GNU_white.svg"
                 level="3"
               >

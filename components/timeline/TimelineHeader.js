@@ -10,6 +10,11 @@ const headcss = css`
   @media screen and ($tablet) {
     display: none;
   }
+
+  @media print {
+    padding: 0 0 10px;
+    display: none;
+  }
 `
 const TimelineHeader = props => {
   return (
@@ -18,8 +23,10 @@ const TimelineHeader = props => {
         text-align: center;
       `}
     >
-      <Heading04 css={headcss}>Professional</Heading04>
-      <Heading04 css={headcss}>Academic</Heading04>
+      {
+        // <Heading04 css={headcss}>Professional</Heading04>
+        // <Heading04 css={headcss}>Academic</Heading04>
+      }
     </div>
   )
 }

@@ -4,9 +4,10 @@ import styled from '@emotion/styled'
 import { Heading05, Paragraph } from '../components/typography'
 
 const SkillsItemContainer = styled.div`
-  flex: 1 1 50%;
+  flex: 0 1 50%;
   padding-right: 30px;
   padding-bottom: 30px;
+  width: 50%;
 `
 
 const SkillsStarsIconContainer = styled.div`
@@ -16,18 +17,33 @@ const SkillsStarsIconContainer = styled.div`
   padding-right: 15px;
   width: 50px;
   font-size: 3rem;
+
+  @media print {
+    font-size: 2rem;
+    width: 30px;
+    padding-right: 10px;
+    line-height: 2.5rem;
+  }
 `
 
 const SkillStars = styled.div`
   display: inline-block;
   vertical-align: top;
   line-height: 4rem;
+
+  @media print {
+    line-height: 2.5rem;
+  }
 `
 
 const SkillStarContainer = styled.div`
   display: inline-block;
   font-size: 2.5rem;
   padding: 0 7px;
+
+  @media print {
+    font-size: 1.7rem;
+  }
 `
 
 const SkillStar = props => (
@@ -45,6 +61,10 @@ const SkillsStarsIcon = props => (
         <img
           css={css`
             width: 30px;
+
+            @media print {
+              width: 20px;
+            }
           `}
           src={props.image}
         />
@@ -60,10 +80,13 @@ const SkillsStarsIcon = props => (
   </div>
 )
 
+const SkillsItemTags = props => <Paragraph sub>{props.tags}</Paragraph>
+
 const SkillsItem = props => (
   <SkillsItemContainer>
     <Heading05>{props.title}</Heading05>
     <SkillsStarsIcon {...props} />
+    <Paragraph sub>{props.tags}</Paragraph>
     {props.children}
   </SkillsItemContainer>
 )

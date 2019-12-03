@@ -38,37 +38,36 @@ const TimelineContent = props => {
     <div>
       <TimelineCenter />
       <TimelineRow>
-        <TimelineColumn
-          css={css`
-            padding-top: 75px !important;
-          `}
-        >
-          <TimelineItem
-            texture
-            professional
-            dates="06-2014 &mdash; 12-2014"
-            title="Bored of Advisors"
-            subtitle="Developer Internship"
-          >
-            <Paragraph>
-              Prototyped a titanium app, built a few simple frontends in
-              Angular.js, sorry Thijmen.
-            </Paragraph>
-          </TimelineItem>
-        </TimelineColumn>
         <TimelineColumn>
           <TimelineItem
             texture
-            arrowLeft
-            academic
-            dates="2013 &mdash; 2014"
-            title="Amsterdam University of Applied Sciences"
-            subtitle="Software engineering"
+            professional
+            dates="12-2019 &mdash; Present"
+            title="jrsalazar.dev"
+            subtitle="Freelance Developer"
           >
             <Paragraph>
-              Learned how to work Agile™, got my webdev-feet wet building a RoR
-              app and got out before I was stuck building enterprise Java
-              servlets for eternity.
+              Business owner gone digital mercenary. Back on the saddle and
+              looking to go head first into the greater technical challenges of
+              tomorrow.
+            </Paragraph>
+          </TimelineItem>
+        </TimelineColumn>
+      </TimelineRow>
+      <TimelineRow>
+        <TimelineColumn>
+          <TimelineItem
+            texture
+            professional
+            dates="04-2016 &mdash; 12-2019"
+            title="Cirkel"
+            subtitle="Lead Developer"
+          >
+            <Paragraph>
+              Took the plunge into business culture and started running projects
+              as a 2 man agency. Main achievement was building a Laravel system
+              + React Native app to digitise 10000km<sup>2</sup> of inventory
+              and forward the database to their Magento webshop and beyond.
             </Paragraph>
           </TimelineItem>
         </TimelineColumn>
@@ -96,35 +95,33 @@ const TimelineContent = props => {
           <TimelineItem
             texture
             professional
-            dates="04-2016 &mdash; 12-2019"
-            title="Cirkel"
-            subtitle="Lead Developer"
+            dates="06-2014 &mdash; 12-2014"
+            title="Bored of Advisors"
+            subtitle="Developer Internship"
           >
             <Paragraph>
-              Took the plunge into business culture and started running projects
-              with a friend gone colleague. Main achievement was building a
-              giant service oriented system for{' '}
-              <a href="247horecapersoneel.nl">247horecapersoneel.nl</a> from
-              scratch. Complete with a 4 step application process, 3 login
-              account types with seperate pages. An entire temp agency built for
-              the digital age.
+              Prototyped a titanium app, programmed a robot arm and built a few
+              simple frontends in Angular.js, sorry Thijmen.
             </Paragraph>
           </TimelineItem>
         </TimelineColumn>
-      </TimelineRow>
-      <TimelineRow>
-        <TimelineColumn>
+        <TimelineColumn
+          css={css`
+            padding-top: 75px !important;
+          `}
+        >
           <TimelineItem
             texture
-            professional
-            dates="12-2019 &mdash; Present"
-            title="jrsalazar.dev"
-            subtitle="Freelance Developer"
+            arrowLeft
+            academic
+            dates="2013 &mdash; 2014"
+            title="Amsterdam University of Applied Sciences"
+            subtitle="Software engineering"
           >
             <Paragraph>
-              Business owner gone digital mercenary. Back on the saddle and
-              looking to go head first into the greater technical challenges of
-              tomorrow.
+              Learned how to work Agile™, got my webdev-feet wet building a RoR
+              app and got out before I was stuck building enterprise Java
+              servlets for eternity.
             </Paragraph>
           </TimelineItem>
         </TimelineColumn>

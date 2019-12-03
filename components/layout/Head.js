@@ -22,6 +22,10 @@ export default function Head() {
             background-color: #fefefe;
             color: #464646;
             width: 100%;
+
+            @media print {
+              font-size: .9rem;
+            }
           }
         `}
       />

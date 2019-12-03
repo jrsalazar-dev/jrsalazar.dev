@@ -11,7 +11,7 @@ const SectionIcon = styled.span`
   position: relative;
   overflow: visible;
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 690px), @media print {
     font-size: 3.5rem;
   }
 
@@ -32,7 +32,7 @@ const SectionTitle = styled.span`
   font-size: 3.5rem;
   font-family: 'Open sans';
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 690px), @media print {
     font-size: 2.5rem;
   }
 `

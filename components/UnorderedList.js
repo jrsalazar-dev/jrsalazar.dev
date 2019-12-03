@@ -6,16 +6,26 @@ const UnorderedList = styled.ul`
 
   & > li {
     padding: 0;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-bottom: 15px;
     position: relative;
     vertical-align: middle;
 
+    @media print {
+      padding-left: 32px;
+    }
+
     &:before {
-      font-size: 3rem;
-      vertical-align: middle;
       position: absolute;
       left: 0px;
+      width: 3rem;
+      vertical-align: middle;
+      font-size: 3rem;
+      text-align: center;
+
+      @media print {
+        font-size: 2rem;
+      }
     }
   }
 `

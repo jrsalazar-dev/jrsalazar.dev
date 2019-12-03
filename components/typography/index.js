@@ -27,9 +27,20 @@ const paragraph = css`
 `
 
 const Paragraph = styled.p(props => {
-  return {
-    ...paragraph
-  }
+  return [
+    paragraph,
+    props.sub
+      ? {
+          fontSize: '1.4rem',
+          margin: 0,
+          marginTop: 5,
+          maxWidth: '80%',
+          '@media print': {
+            fontSize: '.7rem'
+          }
+        }
+      : {}
+  ]
 })
 
 const heading01 = css`

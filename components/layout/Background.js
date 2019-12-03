@@ -49,7 +49,8 @@ const Background = styled.div(props => {
     `
   } else if (props.topography) {
     return {
-      backgroundImage: "url('/img/topography.svg')"
+      backgroundImage: "url('/img/topography.svg')",
+      backgroundRepeat: 'repeat'
     }
   } else if (props.texture) {
     return {
