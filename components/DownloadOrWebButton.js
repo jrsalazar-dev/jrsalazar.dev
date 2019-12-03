@@ -36,7 +36,7 @@ const DownloadOrWebButton = props => (
     `}
   >
     <div className="download-btn">
-      <Link href="/pdf">
+      <Link href="/cv.pdf">
         <i className="ion-android-download" />
       </Link>
     </div>
