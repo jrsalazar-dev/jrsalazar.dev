@@ -41,13 +41,13 @@ var DownloadOrWebButton = function DownloadOrWebButton(props) {
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", {
     className: "download-btn"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/pdf"
+    href: "/cv.pdf"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("i", {
     className: "ion-android-download"
   }))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", {
     className: "view-online-btn"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/"
+    href:  true ? '/' : undefined
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("i", {
     className: "ion-android-open"
   }))));
@@ -262,7 +262,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  flex: 0 1 50%;\n  padding-right: 30px;\n  padding-bottom: 30px;\n  width: 50%;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  flex: 0 1 50%;\n  padding-right: 30px;\n  padding-bottom: 30px;\n  width: 50%;\n\n  @media screen and (max-width: 690px) {\n    flex: 0 1 100%;\n    width: 100%;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -403,6 +403,9 @@ var ContentContainer = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"].d
     '@media print': {
       border: 0,
       padding: '30px 50px'
+    },
+    '@media screen and (max-width: 690px)': {
+      border: 0
     }
   };
   styles.flex = "".concat(props.flex);
@@ -426,7 +429,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: stretch;\n\n  & > div:last-child {\n    margin-left: 30px;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: stretch;\n\n  & > div:last-child {\n    margin-left: 30px;\n\n    @media screen and (max-width: 690px) {\n      margin: 0;\n    }\n  }\n\n  @media screen and (max-width: 690px) {\n    flex-direction: column;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -509,7 +512,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-top: 5rem;\n  width: 100vw;\n  min-height: 100vh;\n\n  @media print {\n    padding-top: 0;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-top: 5rem;\n  width: 100vw;\n  min-height: 100vh;\n\n  @media print {\n    padding-top: 0;\n  }\n    \n  @media screen and (max-width: 690px) {\n    padding-top: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -538,7 +541,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 50px auto;\n  max-width: 1170px;\n\n  @media print {\n    margin: 0;\n    margin-top: 30px;\n    page-break-inside: avoid;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 50px auto;\n  max-width: 1170px;\n\n  @media print {\n    margin: 0;\n    margin-top: 30px;\n    page-break-inside: avoid;\n  }\n\n  @media screen and (max-width: 690px) {\n    margin: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -567,7 +570,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 3px;\n  height: 100%;\n  background-image: repeating-linear-gradient(\n    0deg,\n    transparent,\n    transparent 10px,\n    #404040 0,\n    #404040 20px\n  );\n\n  @media screen and ($tablet) {\n    display: none;\n  }\n\n  & + .timeline-row {\n    .timeline-column:first-of-type {\n      padding-top: 75px;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 3px;\n  height: 100%;\n  background-image: repeating-linear-gradient(\n    0deg,\n    transparent,\n    transparent 10px,\n    #404040 0,\n    #404040 20px\n  );\n\n  @media screen and (max-width: 690px) {\n    display: none;\n  }\n\n  & + .timeline-row {\n    .timeline-column:first-of-type {\n      padding-top: 75px;\n\n      @media screen and (max-width: 690px) {\n        padding-top: 0;\n      }\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -781,7 +784,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n            padding-top: 75px !important;\n          "]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n            padding-top: 75px !important;\n\n            @media screen and (max-width: 690px) {\n              padding-top: 30px !important;\n              padding-bottom: 30px !important;\n            }\n          "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -791,7 +794,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-left: 35px;\n  width: 50%;\n  display: inline-block;\n  vertical-align: top;\n  white-space: normal;\n\n  @media screen and ($tablet) {\n    width: 100%;\n  }\n\n  &:first-of-type {\n    padding: 0;\n    padding-right: 35px;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-left: 35px;\n  width: 50%;\n  display: inline-block;\n  vertical-align: top;\n  white-space: normal;\n\n  @media screen and (max-width: 690px) {\n    width: 100%;\n  }\n\n  &:first-of-type {\n    padding: 0;\n    padding-right: 35px;\n\n    @media screen and (max-width: 690px) {\n      padding-top: 30px;\n      padding-bottom: 30px;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -801,7 +804,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  white-space: nowrap;\n  padding: 15px 0 30px 0;\n\n  @media screen and ($tablet) {\n    display: flex;\n    flex-direction: column-reverse;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  white-space: nowrap;\n  padding: 15px 0 30px 0;\n\n  @media screen and (max-width: 690px) {\n    display: flex;\n    flex-direction: column;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1085,6 +1088,9 @@ var Paragraph = _emotion_styled__WEBPACK_IMPORTED_MODULE_9__["default"].p(functi
     maxWidth: '80%',
     '@media print': {
       fontSize: '.7rem'
+    },
+    '@media screen and (max-width: 690px)': {
+      maxWidth: '100%'
     }
   } : {}];
 });
@@ -14145,7 +14151,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n                width: 600px;\n                ", ";\n              "]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n                width: 600px;\n                ", ";\n\n                @media screen and (max-width: 690px) {\n                  width: 100%;\n                }\n              "]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -14216,21 +14222,21 @@ function Index() {
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
     title: "Javascript",
     icon: "ion-social-javascript-outline",
-    tags: "React,Redux,Vue,Vuex,Angular.js,Angular,RxJS,Express,Hapi",
+    tags: "React, Redux, Vue, Vuex, Angular.js, Angular, RxJS, Express, Hapi",
     level: "5"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "JS is my oldest friend and the go-to language for anything general purpose. Started my career using Angular.js and SCSS, these days I'm all about component based architectures, unidirectional data flow and CSS-in-JS."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "On the server I've set up microservices and monoliths. REST API's and socket based messaging endpoints. Written scripts to combine and manage frontend assets (pre-webpack) and developed things as a video-overlay generator with node-ffmpeg.")), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
     title: "PHP: Hypertext Preprocessor",
     image: "/img/php-512.png",
-    tags: "Laravel,Symfony,PHPUnit,DependencyInjection",
+    tags: "Laravel, Symfony, PHPUnit, DependencyInjection",
     level: "5"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "PHP (Namely Laravel) is the first choice for cut and clear web applications where an opinionated framework is the first choice. Intimate with Laravel's best practices and feature rich ecosystem.")), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    tags: "Emotion,styled-components,SCSS",
+    tags: "Emotion, styled-components, SCSS",
     title: "CSS",
     icon: "ion-social-css3-outline",
     level: "4"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "Whether you're building static pages or component based javascript apps, CSS is an essential player. Mastered most of its inter-browser quirks, animation based complexities and best practices for setting up and managing large amounts of css.")), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
     title: "GNU + Linux",
-    tags: "ArchLinux,Debian,Alpine,bash,zsh,fish,Docker,Git,Vim",
+    tags: "ArchLinux, Debian, Alpine, bash, zsh, fish, Docker, Git, Vim",
     image: "/img/Heckert_GNU_white.svg",
     level: "3"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "Full time GNU + Linux user for 3-4 years. When working with thousands of text files, libraries and packages, theres no better environment to do what you need. Confident writing deploy scripts, managing multiple servers and debugging system related issues."))))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_layout_Section__WEBPACK_IMPORTED_MODULE_7__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_layout_ContentContainer__WEBPACK_IMPORTED_MODULE_5__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SectionHead__WEBPACK_IMPORTED_MODULE_10__["default"], {
