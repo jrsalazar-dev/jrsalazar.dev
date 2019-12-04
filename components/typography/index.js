@@ -37,7 +37,10 @@ const Paragraph = styled.p(props => {
           maxWidth: '80%',
           '@media print': {
             fontSize: '.7rem'
-          }
+          },
+        '@media screen and (max-width: 690px)': {
+          maxWidth: '100%',
+        }
         }
       : {}
   ]

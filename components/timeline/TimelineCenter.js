@@ -15,13 +15,17 @@ const TimelineCenter = styled.div`
     #404040 20px
   );
 
-  @media screen and ($tablet) {
+  @media screen and (max-width: 690px) {
     display: none;
   }
 
   & + .timeline-row {
     .timeline-column:first-of-type {
       padding-top: 75px;
+
+      @media screen and (max-width: 690px) {
+        padding-top: 0;
+      }
     }
   }
 `

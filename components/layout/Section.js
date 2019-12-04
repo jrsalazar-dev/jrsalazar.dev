@@ -9,6 +9,10 @@ const Section = styled.section`
     margin-top: 30px;
     page-break-inside: avoid;
   }
+
+  @media screen and (max-width: 690px) {
+    margin: 0;
+  }
 `
 
 export default Section

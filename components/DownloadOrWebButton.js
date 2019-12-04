@@ -41,7 +41,11 @@ const DownloadOrWebButton = props => (
       </Link>
     </div>
     <div className="view-online-btn">
-      <Link href="/">
+      <Link
+        href={
+          process.env.NODE_ENV !== 'production' ? '/' : 'https://jrsalazar.dev'
+        }
+      >
         <i className="ion-android-open" />
       </Link>
     </div>

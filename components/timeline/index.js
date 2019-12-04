@@ -10,9 +10,9 @@ const TimelineRow = styled.div`
   white-space: nowrap;
   padding: 15px 0 30px 0;
 
-  @media screen and ($tablet) {
+  @media screen and (max-width: 690px) {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 `
 
@@ -23,13 +23,18 @@ const TimelineColumn = styled.div`
   vertical-align: top;
   white-space: normal;
 
-  @media screen and ($tablet) {
+  @media screen and (max-width: 690px) {
     width: 100%;
   }
 
   &:first-of-type {
     padding: 0;
     padding-right: 35px;
+
+    @media screen and (max-width: 690px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
   }
 `
 
@@ -108,6 +113,11 @@ const TimelineContent = props => {
         <TimelineColumn
           css={css`
             padding-top: 75px !important;
+
+            @media screen and (max-width: 690px) {
+              padding-top: 30px !important;
+              padding-bottom: 30px !important;
+            }
           `}
         >
           <TimelineItem

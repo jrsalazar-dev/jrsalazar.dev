@@ -8,6 +8,11 @@ const SkillsItemContainer = styled.div`
   padding-right: 30px;
   padding-bottom: 30px;
   width: 50%;
+
+  @media screen and (max-width: 690px) {
+    flex: 0 1 100%;
+    width: 100%;
+  }
 `
 
 const SkillsStarsIconContainer = styled.div`

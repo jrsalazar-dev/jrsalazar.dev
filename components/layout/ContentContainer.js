@@ -10,6 +10,9 @@ const ContentContainer = styled.div(props => {
     '@media print': {
       border: 0,
       padding: '30px 50px'
+    },
+    '@media screen and (max-width: 690px)': {
+        border: 0,
     }
   }
 

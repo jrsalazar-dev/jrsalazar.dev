@@ -22,7 +22,7 @@ app.prepare().then(() => {
       const filename = path.resolve(__dirname, '../dist/cv/index.html')
       const fileoutput = path.resolve(__dirname, './public/cv.pdf')
       //await page.goto(`file:///${filename}`)
-      await page.goto('http://localhost:3000')
+      await page.goto('https://jrsalazar.dev')
       await page.pdf({ path: fileoutput, format: 'A4' })
 
       browser.close()

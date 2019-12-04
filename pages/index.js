@@ -71,6 +71,10 @@ export default function Index() {
               css={css`
                 width: 600px;
                 ${paragraph};
+
+                @media screen and (max-width: 690px) {
+                  width: 100%;
+                }
               `}
             >
               <li className="ion-ios-world">
@@ -104,7 +108,7 @@ export default function Index() {
               <SkillsItem
                 title="Javascript"
                 icon="ion-social-javascript-outline"
-                tags="React,Redux,Vue,Vuex,Angular.js,Angular,RxJS,Express,Hapi"
+                tags="React, Redux, Vue, Vuex, Angular.js, Angular, RxJS, Express, Hapi"
                 level="5"
               >
                 <Paragraph>
@@ -123,7 +127,7 @@ export default function Index() {
               <SkillsItem
                 title="PHP: Hypertext Preprocessor"
                 image="/img/php-512.png"
-                tags="Laravel,Symfony,PHPUnit,DependencyInjection"
+                tags="Laravel, Symfony, PHPUnit, DependencyInjection"
                 level="5"
               >
                 <Paragraph>
@@ -134,7 +138,7 @@ export default function Index() {
                 </Paragraph>
               </SkillsItem>
               <SkillsItem
-                tags="Emotion,styled-components,SCSS"
+                tags="Emotion, styled-components, SCSS"
                 title="CSS"
                 icon="ion-social-css3-outline"
                 level="4"
@@ -149,7 +153,7 @@ export default function Index() {
               </SkillsItem>
               <SkillsItem
                 title="GNU + Linux"
-                tags="ArchLinux,Debian,Alpine,bash,zsh,fish,Docker,Git,Vim"
+                tags="ArchLinux, Debian, Alpine, bash, zsh, fish, Docker, Git, Vim"
                 image="/img/Heckert_GNU_white.svg"
                 level="3"
               >

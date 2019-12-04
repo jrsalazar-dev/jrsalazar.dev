@@ -8,6 +8,14 @@ const ContentFlexContainer = styled.div`
 
   & > div:last-child {
     margin-left: 30px;
+
+    @media screen and (max-width: 690px) {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    flex-direction: column;
   }
 `
 
