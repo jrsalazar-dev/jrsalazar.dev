@@ -36,18 +36,18 @@ const DownloadOrWebButton = props => (
     `}
   >
     <div className="download-btn">
-      <Link href="/cv.pdf">
+      <a href="/cv.pdf">
         <i className="ion-android-download" />
-      </Link>
+      </a>
     </div>
     <div className="view-online-btn">
-      <Link
+      <a
         href={
           process.env.NODE_ENV !== 'production' ? '/' : 'https://jrsalazar.dev'
         }
       >
         <i className="ion-android-open" />
-      </Link>
+      </a>
     </div>
   </div>
 )
