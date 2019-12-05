@@ -13,7 +13,7 @@ const DownloadOrWebButton = props => (
         right: 50px;
         font-size: 30px;
 
-        & > i {
+        & > a {
           color: black;
           cursor: pointer;
         }
