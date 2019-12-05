@@ -127,7 +127,7 @@ export default function Index() {
               <SkillsItem
                 title="PHP: Hypertext Preprocessor"
                 image="/img/php-512.png"
-                tags="Laravel, Symfony, PHPUnit, DependencyInjection"
+                tags="Laravel, Symfony, PHPUnit"
                 level="5"
               >
                 <Paragraph>
