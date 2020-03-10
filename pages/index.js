@@ -18,7 +18,7 @@ import {
   Heading03,
   Heading04,
   Heading05,
-  Paragraph
+  Paragraph,
 } from '../components/typography'
 
 export default function Index() {
@@ -87,7 +87,8 @@ export default function Index() {
               </li>
               <li className="ion-ios-monitor">
                 Engineering next-gen user interfaces with Javascript and modern
-                web technologies. (ES2020,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)
+                web technologies.
+                (ES2020,Typescript,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)
               </li>
               <li className="ion-iphone">
                 Developing and maintaining cross platform mobile apps (React

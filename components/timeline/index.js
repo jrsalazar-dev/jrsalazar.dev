@@ -48,6 +48,24 @@ const TimelineContent = props => {
             texture
             professional
             dates="12-2019 &mdash; Present"
+            title="Jongens van Techniek"
+            subtitle="Freelance Fullstack Developer"
+          >
+            <Paragraph>
+              Helped build out one of their projects EasyOffice. Worked on the
+              Laravel jsonapi based API as well as the React frontend, connected
+              ingeniously with only Apollo and React Context's as state
+              management. A system fit for the post Redux world.
+            </Paragraph>
+          </TimelineItem>
+        </TimelineColumn>
+      </TimelineRow>
+      <TimelineRow>
+        <TimelineColumn>
+          <TimelineItem
+            texture
+            professional
+            dates="12-2019 &mdash; Present"
             title="jrsalazar.dev"
             subtitle="Freelance Developer"
           >
@@ -71,8 +89,9 @@ const TimelineContent = props => {
             <Paragraph>
               Took the plunge into business culture and started running projects
               as a 2 man agency. Main achievement was building a Laravel system
-              + React Native app to digitise 10000km<sup>2</sup> of inventory
-              and forward the database to their Magento webshop and beyond.
+              + React Native app to digitise 10000m
+              <sup>2</sup> of inventory and forward the database to their
+              Magento webshop and beyond.
             </Paragraph>
           </TimelineItem>
         </TimelineColumn>

@@ -135,7 +135,7 @@ var ProfilePicture = function ProfilePicture(props) {
 var Profile = function Profile(props) {
   return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(ProfilePicture, null), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_UnorderedList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     css: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject4())
-  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Born: 31-10-1992"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Phone: +31(0)639759056"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Email: contact@jrsalazar.dev")));
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Email: contact@jrsalazar.dev"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Phone: +31(0)639759056"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("li", null, "Born: 31-10-1992")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Profile);
@@ -828,6 +828,12 @@ var TimelineContent = function TimelineContent(props) {
     texture: true,
     professional: true,
     dates: "12-2019 \u2014 Present",
+    title: "Jongens van Techniek",
+    subtitle: "Freelance Fullstack Developer"
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "Helped build out one of their projects EasyOffice. Worked on the Laravel jsonapi based API as well as the React frontend, connected ingeniously with only Apollo and React Context's as state management. A system fit for the post Redux world.")))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineRow, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineColumn, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    texture: true,
+    professional: true,
+    dates: "12-2019 \u2014 Present",
     title: "jrsalazar.dev",
     subtitle: "Freelance Developer"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "Business owner gone digital mercenary. Back on the saddle and looking to go head first into the greater technical challenges of tomorrow.")))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineRow, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineColumn, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -836,7 +842,7 @@ var TimelineContent = function TimelineContent(props) {
     dates: "04-2016 \u2014 12-2019",
     title: "Cirkel",
     subtitle: "Lead Developer"
-  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "Took the plunge into business culture and started running projects as a 2 man agency. Main achievement was building a Laravel system + React Native app to digitise 10000km", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("sup", null, "2"), " of inventory and forward the database to their Magento webshop and beyond.")))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineRow, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineColumn, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "Took the plunge into business culture and started running projects as a 2 man agency. Main achievement was building a Laravel system + React Native app to digitise 10000m", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("sup", null, "2"), " of inventory and forward the database to their Magento webshop and beyond.")))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineRow, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(TimelineColumn, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
     texture: true,
     professional: true,
     dates: "01-2015 \u2014 04-2016",
@@ -8560,12 +8566,12 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -11407,12 +11413,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -12047,12 +12053,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -12523,12 +12529,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -14213,7 +14219,7 @@ function Index() {
     className: "ion-network"
   }, "Creating and connecting seperate software systems through API's and managing data flows (REST,GraphQL,Web/Sockets,SOAP)"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("li", {
     className: "ion-ios-monitor"
-  }, "Engineering next-gen user interfaces with Javascript and modern web technologies. (ES2020,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("li", {
+  }, "Engineering next-gen user interfaces with Javascript and modern web technologies. (ES2020,Typescript,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("li", {
     className: "ion-iphone"
   }, "Developing and maintaining cross platform mobile apps (React Native,Ionic)"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("li", {
     className: "ion-code-working"
@@ -14227,7 +14233,7 @@ function Index() {
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "JS is my oldest friend and the go-to language for anything general purpose. Started my career using Angular.js and SCSS, these days I'm all about component based architectures, unidirectional data flow and CSS-in-JS."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "On the server I've set up microservices and monoliths. REST API's and socket based messaging endpoints. Written scripts to combine and manage frontend assets (pre-webpack) and developed things as a video-overlay generator with node-ffmpeg.")), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
     title: "PHP: Hypertext Preprocessor",
     image: "/img/php-512.png",
-    tags: "Laravel, Symfony, PHPUnit, DependencyInjection",
+    tags: "Laravel, Symfony, PHPUnit",
     level: "5"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_typography__WEBPACK_IMPORTED_MODULE_17__["Paragraph"], null, "PHP (Namely Laravel) is the first choice for cut and clear web applications where an opinionated framework is the first choice. Intimate with Laravel's best practices and feature rich ecosystem.")), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_components_SkillsItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
     tags: "Emotion, styled-components, SCSS",
@@ -14259,14 +14265,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_5f137288facb1107b491":
+/***/ "dll-reference dll_ef0ff7c60362f24a921f":
 /*!*******************************************!*\
-  !*** external "dll_5f137288facb1107b491" ***!
+  !*** external "dll_ef0ff7c60362f24a921f" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_5f137288facb1107b491;
+module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
