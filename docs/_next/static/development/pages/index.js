@@ -480,7 +480,7 @@ __webpack_require__.r(__webpack_exports__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n          html {\n            font-size: 62.5%;\n          }\n          html * {\n            box-sizing: border-box;\n          }\n          body {\n            margin: 0;\n            overflow-x: hidden;\n            font-family: Quicksand, sans-serif;\n            font-weight: 300;\n            font-size: 1.5rem;\n            line-height: 1.5;\n            background-color: #fefefe;\n            color: #464646;\n            width: 100%;\n\n            @media print {\n              font-size: 0.9rem;\n            }\n          }\n        "]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n          html {\n            font-size: 62.5%;\n          }\n          html * {\n            box-sizing: border-box;\n          }\n          body {\n            margin: 0;\n            overflow-x: hidden;\n            font-family: Quicksand, sans-serif;\n            font-weight: 300;\n            font-size: 1.5rem;\n            line-height: 1.5;\n            background-color: #fefefe;\n            color: #464646;\n            width: 100%;\n\n            @media print {\n              font-size: 0.9rem;\n            }\n          }\n          #__next-prerender-indicator {\n            display: none;\n          }\n        "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -527,7 +527,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-top: 5rem;\n  width: 100vw;\n  min-height: 100vh;\n\n  @media print {\n    padding-top: 0;\n  }\n    \n  @media screen and (max-width: 690px) {\n    padding-top: 0;\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding-top: 5rem;\n  width: 100vw;\n  min-height: 100vh;\n\n  @media print {\n    padding-top: 0;\n  }\n\n  @media screen and (max-width: 690px) {\n    padding-top: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4222,7 +4222,7 @@ function Index() {
     icon: "ion-ios-infinite-outline",
     title: "Timeline"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_timeline__WEBPACK_IMPORTED_MODULE_11__["default"], null))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_layout_Section__WEBPACK_IMPORTED_MODULE_6__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_layout_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_SectionHead__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    title: "Expertise",
+    title: "Tech",
     icon: "ion-code-working"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", {
     css: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject3())
