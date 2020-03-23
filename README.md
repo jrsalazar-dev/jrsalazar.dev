@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to jrsalazar.dev 👋</h1>
+<h1 align="center">My Curriculum Vitae 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-### ✨ [Demo](https://jrsalazar.dev)
+### ✨ [Live site](https://jrsalazar.dev)
 
 ## Install
 
@@ -21,8 +21,6 @@ yarn start
 ```
 
 ## Author
-
-👤 **Jordan Salazar**
 
 * Github: [@JordanSalazar](https://github.com/JordanSalazar)
 * LinkedIn: [@jordan-salazar-a140b9a5](https://linkedin.com/in/jordan-salazar-a140b9a5)
