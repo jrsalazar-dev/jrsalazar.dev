@@ -6,8 +6,6 @@
   </a>
 </p>
 
-> Jordan Salazar's Curriculum Vitae
-
 ### ✨ [Demo](https://jrsalazar.dev)
 
 ## Install
@@ -28,10 +26,3 @@ yarn start
 
 * Github: [@JordanSalazar](https://github.com/JordanSalazar)
 * LinkedIn: [@jordan-salazar-a140b9a5](https://linkedin.com/in/jordan-salazar-a140b9a5)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
