@@ -27,6 +27,9 @@ export default function Head() {
               font-size: 0.9rem;
             }
           }
+          #__next-prerender-indicator {
+            display: none;
+          }
         `}
       />
       <BaseHead>

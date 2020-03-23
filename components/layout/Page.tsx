@@ -8,7 +8,7 @@ const Page = styled.div`
   @media print {
     padding-top: 0;
   }
-    
+
   @media screen and (max-width: 690px) {
     padding-top: 0;
   }
