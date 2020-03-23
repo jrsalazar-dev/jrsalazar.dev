@@ -107,7 +107,7 @@ export default function Index() {
         </Section>
         <Section>
           <ContentContainer>
-            <SectionHead title="Expertise" icon="ion-code-working" />
+            <SectionHead title="Tech" icon="ion-code-working" />
             <div
               css={css`
                 display: flex;
