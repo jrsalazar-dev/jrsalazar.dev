@@ -49,11 +49,7 @@ const DownloadOrWebButton = () => (
       </a>
     </div>
     <div className="view-online-btn">
-      <a
-        href={
-          process.env.NODE_ENV !== 'production' ? '/' : 'https://jrsalazar.dev'
-        }
-      >
+      <a href="https://jrsalazar.dev">
         <i className="ion-android-open" />
         <span>View online</span>
       </a>

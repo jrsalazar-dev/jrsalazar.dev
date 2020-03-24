@@ -42,7 +42,7 @@ var DownloadOrWebButton = function DownloadOrWebButton() {
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("span", null, "View as pdf"))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", {
     className: "view-online-btn"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
-    href: true ? '/' : undefined
+    href: "https://jrsalazar.dev"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("i", {
     className: "ion-android-open"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("span", null, "View online"))));
@@ -4251,7 +4251,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjrs%2Fwww%2Fjrsalazar.dev%2Fpages%2Findex.tsx ***!
   \*************************************************************************************************************************/
@@ -4274,5 +4274,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

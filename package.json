@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "export": "NODE_ENV=production next export -o docs && echo 'jrsalazar.dev' > ./docs/CNAME",
+    "export": "NODE_ENV=production next build && next export -o docs && echo 'jrsalazar.dev' > ./docs/CNAME",
     "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
