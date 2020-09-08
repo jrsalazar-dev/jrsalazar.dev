@@ -821,6 +821,18 @@ function _templateObject() {
 var TimelineContent = function TimelineContent() {
   return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineCenter__WEBPACK_IMPORTED_MODULE_6__["default"], null), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineRow__WEBPACK_IMPORTED_MODULE_7__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
     type: _TimelineItem__WEBPACK_IMPORTED_MODULE_8__["ItemType"].Professional,
+    dates: "06-2020 \u2014 10-2020",
+    title: "24i media",
+    subtitle: "Freelance React Native Developer",
+    tags: "React native, NextJS, lerna"
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "Part of the core team realising the \"next generation\" flagship product of 24i, a hyper cross-platform React native app supporting every platform from TV to desktop to mobile and everything in between."))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineRow__WEBPACK_IMPORTED_MODULE_7__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    type: _TimelineItem__WEBPACK_IMPORTED_MODULE_8__["ItemType"].Professional,
+    dates: "04-2020 \u2014 05-2020",
+    title: "Edenspiekermann",
+    subtitle: "Freelance React Developer",
+    tags: "NextJS, Contenful, React, styled-components"
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_typography__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], null, "With the design being finished as we started, we managed to pump out a statically exported covid dashboard, hooked up to a headless CMS with full control of the content and pages being generated, in only 2 weeks. Thanks to an amazing lead dev and quick and decisive action by 3 senior frontenders."))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineRow__WEBPACK_IMPORTED_MODULE_7__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_TimelineItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    type: _TimelineItem__WEBPACK_IMPORTED_MODULE_8__["ItemType"].Professional,
     dates: "12-2019 \u2014 04-2020",
     title: "Jongens van Techniek",
     subtitle: "Freelance Fullstack Developer",
@@ -4251,7 +4263,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjrs%2Fwww%2Fjrsalazar.dev%2Fpages%2Findex.tsx ***!
   \*************************************************************************************************************************/
@@ -4274,5 +4286,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
