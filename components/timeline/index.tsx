@@ -15,6 +15,38 @@ const TimelineContent = () => {
       <TimelineRow>
         <TimelineItem
           type={ItemType.Professional}
+          dates="06-2020 &mdash; 10-2020"
+          title="24i media"
+          subtitle="Freelance React Native Developer"
+          tags="React native, NextJS, lerna"
+        >
+          <Paragraph>
+            Part of the core team realising the "next generation" flagship
+            product of 24i, a hyper cross-platform React native app supporting
+            every platform from TV to desktop to mobile and everything in between.
+          </Paragraph>
+        </TimelineItem>
+      </TimelineRow>
+      <TimelineRow>
+        <TimelineItem
+          type={ItemType.Professional}
+          dates="04-2020 &mdash; 05-2020"
+          title="Edenspiekermann"
+          subtitle="Freelance React Developer"
+          tags="NextJS, Contenful, React, styled-components"
+        >
+          <Paragraph>
+            With the design being finished as we started, we managed to pump out
+            a statically exported covid dashboard, hooked up to a headless CMS
+            with full control of the content and pages being generated, in only
+            2 weeks. Thanks to an amazing lead dev and quick and decisive action
+            by 3 senior frontenders.
+          </Paragraph>
+        </TimelineItem>
+      </TimelineRow>
+      <TimelineRow>
+        <TimelineItem
+          type={ItemType.Professional}
           dates="12-2019 &mdash; 04-2020"
           title="Jongens van Techniek"
           subtitle="Freelance Fullstack Developer"
