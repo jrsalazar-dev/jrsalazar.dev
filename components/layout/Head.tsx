@@ -25,6 +25,11 @@ export default function Head() {
 
             @media print {
               font-size: 0.9rem;
+
+              @page {
+                size: A4;
+                margin: 27mm 16mm; 
+              }
             }
           }
           #__next-prerender-indicator {
