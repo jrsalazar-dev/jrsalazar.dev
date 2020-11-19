@@ -15,15 +15,16 @@ const TimelineContent = () => {
       <TimelineRow>
         <TimelineItem
           type={ItemType.Professional}
-          dates="06-2020 &mdash; 10-2020"
+          dates="06-2020 &mdash; 12-2020"
           title="24i media"
           subtitle="Freelance React Native Developer"
-          tags="React native, NextJS, lerna"
+          tags="React Native, React Native Web, NextJS, lerna"
         >
           <Paragraph>
-            Part of the core team realising the "next generation" flagship
-            product of 24i, a hyper cross-platform React native app supporting
-            every platform from TV to desktop to mobile and everything in between.
+            Part of the core team realising the next-generation flagship product
+            of 24i, a hyper cross-platform React native app. Specialising in the
+            web platform. Played a key role in the migration to full
+            server side rendered react-native-web.
           </Paragraph>
         </TimelineItem>
       </TimelineRow>
@@ -66,7 +67,7 @@ const TimelineContent = () => {
           dates="04-2016 &mdash; 12-2019"
           title="Cirkel"
           subtitle="Lead Developer"
-          tags="Laravel, Vue.js, React native, Redux, Express, Ionic"
+          tags="Laravel, Vue.js, React Native, Redux, Express, Ionic"
         >
           <Paragraph>
             Landed a large project besides my already fulltime work schedule and

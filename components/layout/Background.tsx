@@ -1,13 +1,13 @@
 import styled from '@emotion/styled'
 
 export enum BackgroundType {
-  cicada,
-  houndstooth,
-  halfRombes,
-  weave,
-  stairs,
-  topography,
-  texture,
+  Cicada,
+  Houndstooth,
+  HalfRombes,
+  Weave,
+  Stairs,
+  Topography,
+  Texture,
 }
 
 export type BackgroundProps = {
@@ -15,7 +15,7 @@ export type BackgroundProps = {
 }
 
 export default styled.div(({ type }: BackgroundProps) => {
-  if (type === BackgroundType.cicada) {
+  if (type === BackgroundType.Cicada) {
     return `
       background-color: rgba(#999, 0.1);
       background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
@@ -24,7 +24,7 @@ export default styled.div(({ type }: BackgroundProps) => {
       linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
       background-size: 13px, 29px, 37px, 53px;
     `
-  } else if (type === BackgroundType.houndstooth) {
+  } else if (type === BackgroundType.Houndstooth) {
     return `
       background:
       linear-gradient(-45deg, white 25%, transparent 25%, transparent 75%, darken(#fff, 4) 75%, darken(#fff, 4)) 0 0,
@@ -33,7 +33,7 @@ export default styled.div(({ type }: BackgroundProps) => {
       background-color: white;
       background-size: 2em 2em;
     `
-  } else if (type === BackgroundType.halfRombes) {
+  } else if (type === BackgroundType.HalfRombes) {
     return `
       background: #fff;
       background: 
@@ -44,7 +44,7 @@ export default styled.div(({ type }: BackgroundProps) => {
       #fff;
       background-size: 15px 30px  
     `
-  } else if (type === BackgroundType.weave) {
+  } else if (type === BackgroundType.Weave) {
     return `
       background:
       linear-gradient(135deg,  #fff 22px, darken(#fff, 3) 22px, darken(#fff, 3) 24px, transparent 24px, transparent 67px, darken(#fff, 3) 67px, darken(#fff, 3) 69px, transparent 69px),
@@ -52,7 +52,7 @@ export default styled.div(({ type }: BackgroundProps) => {
       background-color: #fff;
       background-size: 64px 128px 
     `
-  } else if (type === BackgroundType.stairs) {
+  } else if (type === BackgroundType.Stairs) {
     return `
       background: 
       linear-gradient(63deg, darken(#fff, 1) 23%, transparent 23%) 7px 0, 
@@ -61,12 +61,12 @@ export default styled.div(({ type }: BackgroundProps) => {
       #fff;
       background-size: 16px 48px; 
     `
-  } else if (type === BackgroundType.topography) {
+  } else if (type === BackgroundType.Topography) {
     return {
       backgroundImage: "url('/img/topography.svg')",
       backgroundRepeat: 'repeat',
     }
-  } else if (type === BackgroundType.texture) {
+  } else if (type === BackgroundType.Texture) {
     return {
       backgroundImage: "url('/img/texture.svg')",
     }

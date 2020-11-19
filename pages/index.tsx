@@ -22,7 +22,7 @@ import {
 
 export default function Index() {
   return (
-    <Background type={BackgroundType.topography}>
+    <Background type={BackgroundType.Topography}>
       <Head />
       <Page>
         <Section className="splash">
@@ -81,20 +81,20 @@ export default function Index() {
               </li>
               <li className="ion-network">
                 Creating and connecting seperate software systems through API's
-                and managing data flows (REST,GraphQL,Web/Sockets,SOAP)
+                and managing data flows (REST,GraphQL,Web/Sockets)
               </li>
               <li className="ion-ios-monitor">
                 Engineering next-gen user interfaces with Javascript and modern
                 web technologies.
-                (ES2020,Typescript,React,Redux,Vue,Vuex,CSS-in-JS,SCSS)
+                (ES2020,Typescript,React,Redux,CSS-in-JS,SCSS)
               </li>
               <li className="ion-iphone">
                 Developing and maintaining cross platform mobile apps (React
-                Native,Ionic)
+                Native)
               </li>
               <li className="ion-code-working">
                 Setting up professional engineering pipelines
-                (Bash,Docker,CI,CD,Puppet)
+                (AWS,Docker,CI,CD,sh)
               </li>
             </UnorderedList>
           </ContentContainer>
