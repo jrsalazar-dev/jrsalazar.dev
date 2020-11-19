@@ -39,7 +39,7 @@ const Profile = props => (
         margin: 0;
       `}
     >
-      <li>Email: contact@jrsalazar.dev</li>
+      <li>Email: jrsalazar.dev@hey.com</li>
       <li>Phone: +31(0)639759056</li>
       <li>Born: 31-10-1992</li>
     </UnorderedList>
