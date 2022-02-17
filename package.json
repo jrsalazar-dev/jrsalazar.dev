@@ -17,7 +17,7 @@
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
     "express": "^4.17.1",
-    "next": "^10.0.2",
+    "next": "^12.1.0",
     "prop-types": "^15.7.2",
     "puppeteer": "^2.0.0",
     "react": "^16.12.0",
